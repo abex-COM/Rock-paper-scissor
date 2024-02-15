@@ -3,7 +3,7 @@ function getUserChoice() {
   return playerSelection;
 }
 
-function getComputerChoose() {
+function getComputerChoose()   {
   const char = ['r', 's', 'p'];
   let compChoose = char[Math.floor(Math.random() * 3)]; //generate r, s, or p
   return compChoose;
